@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+:root {
+  --orange-primary: #fa7436;
+  --black-primary: #222222;
+  --blue-secundary: #4086f4;
+  --yellow-secundary: #ffb60a;
+  --text-primary: #222222;
+  --text-secundary: #444444;
+  --text-aux: #666666;
+  --icon-gray: #999999;
+  --icon-white: #e5e5e5;
+  --icon-orange: #fa7436;
+  --btn-color: #fa7436;
+  --bg-orange: #fa7436;
+  --bg-white: #fefcfb;
+  --bg-light-gray: #f7f8fc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bg-white);
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  margin-inline: 15%;
+}
+
+nav {
+  padding-block: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_logo {
+  font-family: "Volkhov", serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--text-primary);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.nav_logo img {
+  width: 20px;
+  height: 20px;
+}
+
+.nav_menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  text-transform: capitalize;
+}
+.nav_menu a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+.nav_menu a:hover {
+  color: var(--text-aux);
+  transition: 300ms;
+}
+
+.nav_btn {
+  display: flex;
+  gap: 52px;
+  align-items: center;
+}
+.nav_btn a {
+  padding-block: 0.9375rem;
+  border-radius: 0.3125rem;
+}
+.nav_btn a:nth-child(1) {
+  color: var(--orange-primary);
+}
+.nav_btn a:nth-child(2) {
+  color: white;
+  background-color: var(--bg-orange);
+  box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.24);
+  padding-inline: 3.125rem;
+}
+.nav_btn a:hover {
+  filter: brightness(1.2);
+  transition: 300ms;
+}
+
+/*# sourceMappingURL=index.css.map */
