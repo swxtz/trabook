@@ -153,6 +153,7 @@ nav {
   box-shadow: 0px 2px 80px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   gap: 100px;
+  margin-bottom: 7.5rem;
 }
 
 .search_section {
@@ -190,6 +191,36 @@ nav {
 .search_btn a:hover {
   filter: brightness(1.2);
   transition: 300ms;
+}
+
+.need {
+  margin-block: 120px;
+}
+
+.need_main {
+  display: flex;
+  font-family: "Volkhov", serif;
+  font-size: 48px;
+  line-height: 80px;
+  color: var(--text-primary);
+  text-align: center;
+  align-items: center;
+}
+.need_main span {
+  color: var(--orange-primary);
+}
+
+.need_element {
+  width: 180px;
+  height: 130px;
+}
+
+.need_subtitle {
+  text-align: center;
+  color: var(--text-aux);
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 24px;
 }
 
 /*# sourceMappingURL=index.css.map */
