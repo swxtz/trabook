@@ -26,6 +26,8 @@
 
 --btn-color: #FA7436;
 
+Border radius: 5px 
+
 # Background Color
 
 ## Light Theme
